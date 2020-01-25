@@ -1,0 +1,4 @@
+env.sh
+.vscode/settings.json
+.env
+*/__pycache__/*

@@ -1,0 +1,5 @@
+Django==2.2.3
+python-decouple
+spotipy
+mysqlclient
+sentry-sdk==0.14.1
