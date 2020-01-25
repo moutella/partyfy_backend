@@ -1,0 +1,31 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  {# Global stylesheets #}
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="{% static 'css/base.css' %}">
+  {% block extra_css %}
+  {% endblock %}
+  <title>
+    {% block title %}
+    Partyfy
+    {% endblock %}
+  </title>
+</head>
+
+<body>
+
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  {% block extra_js %}
+  {% endblock %}
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+body{
+    background-color: #45425A;
+}
+
+.login-card{
+    background-color: #93A3B1;
+    border: 5px solid rgba(0,0,0,.25);
+}
