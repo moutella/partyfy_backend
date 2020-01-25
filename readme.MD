@@ -4,7 +4,7 @@ Tired of having your friends ask for you to unlock your phone while having a par
 - clone this repository
 - install dependencies
     - it's recommended that you use a virutal environment
-- create a symbolic link on spotify_party_backend
+- create a symbolic link on partyfy_backend
     - `ln -s settings.dev.py settings.py`
 - create a database thats going to be used in the project
 - create your .env file and fill it
