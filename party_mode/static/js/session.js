@@ -30,7 +30,7 @@ jQuery(document).ready(function () {
 
     function addTextAreaCallback(textArea, callback, delay) {
         var timer = null;
-        textArea.onkeypress = function () {
+        textArea.on("keyup input", function () {
             if (timer) {
                 window.clearTimeout(timer);
             }
@@ -38,11 +38,10 @@ jQuery(document).ready(function () {
                 timer = null;
                 callback();
             }, delay);
-        };
-        textArea = null;
+        });
     }
 
-    addTextAreaCallback(document.getElementById("song_name"), create_searchs, 350);
+    addTextAreaCallback(jQuery("#song_name"), create_searchs, 350);
 
     function updateAutoComplete() {
         jQuery("#song_name").autocomplete({
@@ -63,7 +62,7 @@ jQuery(document).ready(function () {
                 console.log(item);
                 return $("<li>")
                     .append("<div class='row'>" +
-                        "<div class='col-2'><img style='width: 100%'src=" +
+                        "<div class='col-md-2 col-4'><img style='width: 100%'src=" +
                         item.cover +
                         "></img></div>" +
                         item.label +
