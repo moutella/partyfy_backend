@@ -12,4 +12,3 @@ Tired of having your friends asking you to unlock your phone while having a part
     - you will need to create a spotify developer account and configure it as well
 - run migrations
 - add initial_data
-- create a super user that is going to be allowed to start a new session
