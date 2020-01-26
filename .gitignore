@@ -1,7 +1,7 @@
 env.sh
 .vscode/settings.json
 .env
-*/__pycache__/*
-.cache*
-spotipy-tests.py
-static/*
+__pycache__
+/static/
+/media/
+settings.py
