@@ -1,3 +1,4 @@
+import random
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
 import requests
@@ -6,10 +7,11 @@ from django.shortcuts import render
 from django.views import View
 from django.contrib.auth.models import User
 from django.urls import reverse
-from django.http import HttpResponse
+from django.http import HttpResponse, HttpResponseRedirect
 from django.contrib.auth.base_user import BaseUserManager
 from django.contrib.auth import authenticate, login, logout
-from .models import Host
+from django.contrib import messages
+from .models import Host, Session, RequestedSong, Adjective, Animal
 # Create your views here.
 
 class Login(View):
@@ -38,7 +40,8 @@ class LoginReturnPage(View):
         token = spotify_auth.get_access_token(code)
         sp = spotipy.Spotify(auth=token['access_token'])
         spotify_info = sp.me()
-        print(spotify_info['id'])
+        animals = Animal.objects.all()
+        adjs = Adjective.objects.all()
         try:
             user = User.objects.get(username=spotify_info['id'])
             host = Host.objects.get(user=user)
@@ -46,7 +49,6 @@ class LoginReturnPage(View):
             host.refresh_token = token['refresh_token']
             host.save()
             login(request, user)
-            return HttpResponse("Já existia e logou")
         except:
             user = User(username=spotify_info['id'], first_name=spotify_info['display_name'])
             user.save()
@@ -57,5 +59,82 @@ class LoginReturnPage(View):
             )
             host.save()
             login(request, user)
-            return HttpResponse("Novo usuário logou")
         
+        new_session = False
+        while not new_session:
+            adj_1 = random.choice(adjs)
+            adj_2 = random.choice(adjs)
+            anim = random.choice(animals)   
+            session_id = "{}{}{}".format(anim, adj_1, adj_2)
+            host = Host.objects.get(user=request.user)
+            try:
+                session = Session.objects.get(session_id=session_id)
+            except Session.DoesNotExist:
+                session = Session(
+                    session_id=session_id,
+                    host=host
+                )
+                session.save()
+                new_session = True    
+        return HttpResponseRedirect(reverse('session', kwargs={'session_id':session_id}))
+        
+class SessionView(View):
+    def get(self, request, session_id):
+
+        context = {
+            'session_id': session_id
+        }
+        return render(request, 'session.html', context)
+
+class MusicRequestView(View):
+    def post(self, request):
+        print(request.POST)
+        session_id = request.POST['session_id']
+        session = Session.objects.get(session_id=session_id)
+        token = session.host.spotify_token
+        sp = spotipy.Spotify(auth=token)
+        
+        current = sp.currently_playing()
+        already_playing = False
+        current_song = None
+        try:
+            current_song = RequestedSong.objects.get(uri=current['item']['uri'])
+            already_playing = True
+        except:
+            pass
+        try:
+            new_request = RequestedSong.objects.get(
+                session=session,
+                uri=request.POST['song_uri']
+            )
+            messages.error(request, "Música já está na fila")
+        except RequestedSong.DoesNotExist:
+            new_request = RequestedSong(
+                session=session,
+                uri=request.POST['song_uri'],
+                name=current['item']['name']
+            )
+            new_request.save()
+            try:
+                session_songs = RequestedSong.objects.filter(session=session)
+                if already_playing:
+                    session_songs = session_songs.filter(created_at__gt=current_song)
+                if current:
+                    songs_with_current = [current['item']['uri']]
+                    for song in session_songs:
+                        songs_with_current.append(song.uri)
+                    current = sp.currently_playing()
+                    progress = current['progress_ms']
+                    print(songs_with_current)
+                    sp.start_playback(uris=songs_with_current)
+                    sp.seek_track(progress)
+                else:
+                    sp.start_playback(uris=songs)
+            except Exception as e:
+                print(e.with_traceback)
+                messages.error(request, str(e))
+        return HttpResponseRedirect(reverse('session', kwargs={'session_id':session_id}))
+
+class CreateNewSession(View):
+    def get(self, request):
+        pass

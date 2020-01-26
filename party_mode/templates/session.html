@@ -1,0 +1,40 @@
+{% extends 'base.html' %}
+{% block content %}
+<div class="mt-5 row justify-content-center text-center">
+    <div class="col-md-6 col-12 card login-card">
+        <div class="card-body">
+            <h5 class="card-title">Add song to partyfy</h5>
+            <p class="card-text">The accepted format is:</p>
+            <p class="card-text">spotify:track:6Zv4HVHfadVo3JQSSbwY7r</p>
+            <p class="card-text">This session id is:</p>
+            <p class="card-text">{{ session_id }}</p>
+
+            {% if messages %}
+            <ul class="messages text-white">
+                {% for message in messages %}
+                    {% if message.tags == "error" %}
+                        <li {% if message.tags %} class="{{ message.tags }} bg-danger" {% endif %}>{{ message }}</li>
+                    {% else %}
+                        <li {% if message.tags %} class="{{ message.tags }} bg-success" {% endif %}>{{ message }}</li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+            {% endif %}
+            <div class="panel-body ">
+                <form class="form-horizontal" name="AddSongForm" method="post" action="/request/">
+                    {% csrf_token %}
+                    <input type="hidden" name="session_id" value="{{ session_id }}" />
+                    <div class="form-group">
+                        <div>
+                            <input id="song_uri" type="text" name="song_uri" value="" required="required"
+                                autofocus="autofocus" placeholder="Username"
+                                class="form-control form-control-solid placeholder-no-fix bg-c-dark text-white">
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary">Request Song</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
