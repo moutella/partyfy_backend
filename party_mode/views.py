@@ -20,7 +20,6 @@ class Login(View):
         scope = 'streaming user-read-currently-playing user-read-playback-state user-modify-playback-state'
 
         redirect_url = request.build_absolute_uri('/')[:-1].strip("/")  +reverse('login_return')
-        print(redirect_url)
         client_id=config("SPOTIFY_CLIENT_ID")
         spotify_string = 'https://accounts.spotify.com/authorize?client_id={}&response_type=code&redirect_uri={}&scope={}'
         spotify_string = spotify_string.format(client_id, redirect_url, scope)
@@ -83,12 +82,29 @@ class SessionView(View):
     def get(self, request, session_id):
         session = Session.objects.get(session_id=session_id)
         token = session.host.spotify_token
-        sp = spotipy.Spotify(auth=token)
+        try:
+            sp = spotipy.Spotify(auth=token)
+            current = sp.currently_playing()
+        except:
+            redirect_url = request.build_absolute_uri('/')[:-1].strip("/")  +reverse('login_return')
+            spotify_auth = SpotifyOAuth(
+            client_id=config('SPOTIFY_CLIENT_ID'),
+            client_secret=config('SPOTIFY_SECRET'),
+            redirect_uri=redirect_url
+        )
+            refresh = spotify_auth.refresh_access_token(session.host.refresh_token)
+            session.host.spotify_token = refresh['access_token']
+            session.host.refresh_token = refresh['refresh_token']
+            session.host.save()
+            token = session.host.spotify_token
+            sp = spotipy.Spotify(auth=token)
+            current = sp.currently_playing()
         
-        current = sp.currently_playing()
+        
         
         context = {
-            'session_id': session_id
+            'session_id': session_id,
+            'data': {"token": token}
         }
         try:
             current_song = RequestedSong.objects.get(uri=current['item']['uri'])
@@ -103,7 +119,6 @@ class SessionView(View):
                 session__session_id=session_id,
                 created_at__gt=current_song.created_at
             )
-            print(session_songs)
             context["songs"] = session_songs
         except:
             session_songs = RequestedSong.objects.filter(
@@ -119,13 +134,28 @@ class MusicRequestView(View):
         session_id = request.POST['session_id']
         session = Session.objects.get(session_id=session_id)
         token = session.host.spotify_token
-        sp = spotipy.Spotify(auth=token)
+        try:
+            sp = spotipy.Spotify(auth=token)
+            current = sp.currently_playing()
+        except:
+            redirect_url = request.build_absolute_uri('/')[:-1].strip("/")  +reverse('login_return')
+            spotify_auth = SpotifyOAuth(
+            client_id=config('SPOTIFY_CLIENT_ID'),
+            client_secret=config('SPOTIFY_SECRET'),
+            redirect_uri=redirect_url
+        )
+            refresh = spotify_auth.refresh_access_token(session.host.refresh_token)
+            session.host.spotify_token = refresh['access_token']
+            session.host.refresh_token = refresh['refresh_token']
+            session.host.save()
+            token = session.host.spotify_token
+            sp = spotipy.Spotify(auth=token)
+            current = sp.currently_playing()
         
-        current = sp.currently_playing()
+        
         already_playing = False
         current_song = None
-        track = sp.track(request.POST['song_uri'])
-        print(track)
+        track = sp.track(request.POST['request_song_uri'])
         try:
             current_song = RequestedSong.objects.get(uri=current['item']['uri'])
             already_playing = True
@@ -140,7 +170,7 @@ class MusicRequestView(View):
         except RequestedSong.DoesNotExist:
             new_request = RequestedSong(
                 session=session,
-                uri=request.POST['song_uri'],
+                uri=request.POST['request_song_uri'],
                 name=track['name'],
                 song_id=track['id']
             )
@@ -159,7 +189,6 @@ class MusicRequestView(View):
                         songs_with_current.append(song.uri)
                     current = sp.currently_playing()
                     progress = current['progress_ms']
-                    print(songs_with_current)
                     sp.start_playback(uris=songs_with_current)
                     sp.seek_track(progress)
                 else:
@@ -176,3 +205,7 @@ class CreateNewSession(View):
 class Home(View):
     def get(self, request):
         return render(request, 'index.html')
+
+class SongSearch(View):
+    def get(self, request):
+                pass
