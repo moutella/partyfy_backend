@@ -56,6 +56,7 @@ jQuery(document).ready(function () {
                     jQuery("#song_name").val(ui.item.label);
                     jQuery("#request_song_uri").val(ui.item.value);
                     jQuery("#request_song_form").submit();
+                    return false;
                 }
             })
             .autocomplete("instance")._renderItem = function (ul, item) {
