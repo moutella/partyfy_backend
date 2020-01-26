@@ -1,4 +1,4 @@
-Tired of having your friends ask for you to unlock your phone while having a party so they can select a song to be played? Well, I am
+Tired of having your friends asking you to unlock your phone while having a party so they can select a song to be played? Well, I am
 
 # How to use it
 - clone this repository
