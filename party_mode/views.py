@@ -1,3 +1,4 @@
+import traceback
 import random
 import spotipy
 from spotipy.oauth2 import SpotifyClientCredentials, SpotifyOAuth
@@ -118,7 +119,7 @@ class MusicRequestView(View):
             try:
                 session_songs = RequestedSong.objects.filter(session=session)
                 if already_playing:
-                    session_songs = session_songs.filter(created_at__gt=current_song)
+                    session_songs = session_songs.filter(created_at__gt=current_song.created_at)
                 if current:
                     songs_with_current = [current['item']['uri']]
                     for song in session_songs:
@@ -131,7 +132,7 @@ class MusicRequestView(View):
                 else:
                     sp.start_playback(uris=songs)
             except Exception as e:
-                print(e.with_traceback)
+                traceback.print_exc()    
                 messages.error(request, str(e))
         return HttpResponseRedirect(reverse('session', kwargs={'session_id':session_id}))
 
