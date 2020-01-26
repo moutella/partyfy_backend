@@ -92,6 +92,7 @@ class SessionView(View):
         }
         try:
             current_song = RequestedSong.objects.get(uri=current['item']['uri'])
+            context["current_song"] = current['item']['name']
             session_songs_played = RequestedSong.objects.filter(created_at__lte=current_song.created_at)
             for song in session_songs_played:
                 song.played=True
@@ -104,9 +105,12 @@ class SessionView(View):
             )
             print(session_songs)
             context["songs"] = session_songs
-            context["current_song"] = current['item']['name']
         except:
-            traceback.print_exc()
+            session_songs = RequestedSong.objects.filter(
+                session__session_id=session_id,
+                played=False
+            )
+            context["songs"] = session_songs
         return render(request, 'session.html', context)
 
 class MusicRequestView(View):
