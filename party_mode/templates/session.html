@@ -12,11 +12,11 @@
             {% if messages %}
             <ul class="messages text-white">
                 {% for message in messages %}
-                    {% if message.tags == "error" %}
-                        <li {% if message.tags %} class="{{ message.tags }} bg-danger" {% endif %}>{{ message }}</li>
-                    {% else %}
-                        <li {% if message.tags %} class="{{ message.tags }} bg-success" {% endif %}>{{ message }}</li>
-                    {% endif %}
+                {% if message.tags == "error" %}
+                <li {% if message.tags %} class="{{ message.tags }} bg-danger" {% endif %}>{{ message }}</li>
+                {% else %}
+                <li {% if message.tags %} class="{{ message.tags }} bg-success" {% endif %}>{{ message }}</li>
+                {% endif %}
                 {% endfor %}
             </ul>
             {% endif %}
@@ -27,13 +27,33 @@
                     <div class="form-group">
                         <div>
                             <input id="song_uri" type="text" name="song_uri" value="" required="required"
-                                autofocus="autofocus" placeholder="Song URI"
-                                class="form-control">
+                                autofocus="autofocus" placeholder="Song URI" class="form-control">
                         </div>
                     </div>
                     <button type="submit" class="btn btn-primary">Request Song</button>
                 </form>
             </div>
+        </div>
+        <div id="song-table-wrapper" class="margintop-0 table-responsive">
+            <h3>Now playing</h3>
+            <h5>{{ current_song }}</h5>
+            <h3>Upcoming songs</h3>
+            <table id="songs-incoming" class="display table table-striped text-center" cellspacing="0" width="100%">
+                <thead>
+                </thead>
+                <tbody>
+                    {% for song in songs %}
+                    <tr>
+                        <td>{{ song.name }}</td>
+                    </tr>
+                    {% endfor %}
+
+                </tbody>
+                <tfoot>
+                    <th></th>
+                </tfoot>
+            </table>
+
         </div>
     </div>
 </div>

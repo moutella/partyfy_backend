@@ -25,9 +25,10 @@ class Session(models.Model):
 class RequestedSong(models.Model):
     session = models.ForeignKey(Session, on_delete=models.CASCADE)
     uri = models.CharField(max_length=50)
+    song_id = models.CharField(max_length=50)
     name = models.CharField(max_length=50)
     created_at = models.DateTimeField(editable=False, default=timezone.now)
-
+    played = models.BooleanField(default=False)
 
     def __str__(self):
         return "{}".format(self.name)

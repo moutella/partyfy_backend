@@ -81,10 +81,32 @@ class LoginReturnPage(View):
         
 class SessionView(View):
     def get(self, request, session_id):
-
+        session = Session.objects.get(session_id=session_id)
+        token = session.host.spotify_token
+        sp = spotipy.Spotify(auth=token)
+        
+        current = sp.currently_playing()
+        
         context = {
             'session_id': session_id
         }
+        try:
+            current_song = RequestedSong.objects.get(uri=current['item']['uri'])
+            session_songs_played = RequestedSong.objects.filter(created_at__lte=current_song.created_at)
+            for song in session_songs_played:
+                song.played=True
+                song.save()
+            
+            already_playing = True
+            session_songs = RequestedSong.objects.filter(
+                session__session_id=session_id,
+                created_at__gt=current_song.created_at
+            )
+            print(session_songs)
+            context["songs"] = session_songs
+            context["current_song"] = current['item']['name']
+        except:
+            traceback.print_exc()
         return render(request, 'session.html', context)
 
 class MusicRequestView(View):
@@ -98,6 +120,8 @@ class MusicRequestView(View):
         current = sp.currently_playing()
         already_playing = False
         current_song = None
+        track = sp.track(request.POST['song_uri'])
+        print(track)
         try:
             current_song = RequestedSong.objects.get(uri=current['item']['uri'])
             already_playing = True
@@ -106,20 +130,25 @@ class MusicRequestView(View):
         try:
             new_request = RequestedSong.objects.get(
                 session=session,
-                uri=request.POST['song_uri']
+                song_id=track['id']
             )
             messages.error(request, "Música já está na fila")
         except RequestedSong.DoesNotExist:
             new_request = RequestedSong(
                 session=session,
                 uri=request.POST['song_uri'],
-                name=current['item']['name']
+                name=track['name'],
+                song_id=track['id']
             )
             new_request.save()
             try:
-                session_songs = RequestedSong.objects.filter(session=session)
+                session_songs = RequestedSong.objects.filter(session=session, played=False)
                 if already_playing:
+                    session_songs_played = session_songs.filter(created_at__lte=current_song.created_at)
                     session_songs = session_songs.filter(created_at__gt=current_song.created_at)
+                    for song in session_songs_played:
+                        song.played = True
+                        song.save()
                 if current:
                     songs_with_current = [current['item']['uri']]
                     for song in session_songs:
@@ -139,3 +168,7 @@ class MusicRequestView(View):
 class CreateNewSession(View):
     def get(self, request):
         pass
+
+class Home(View):
+    def get(self, request):
+        return render(request, 'index.html')

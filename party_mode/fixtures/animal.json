@@ -1,0 +1,2942 @@
+[
+{
+    "model": "party_mode.animal",
+    "pk": 1,
+    "fields": {
+        "name": "abelha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 2,
+    "fields": {
+        "name": "abutre"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 3,
+    "fields": {
+        "name": "acaro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 4,
+    "fields": {
+        "name": "aguia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 5,
+    "fields": {
+        "name": "albatroz"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 6,
+    "fields": {
+        "name": "alce"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 7,
+    "fields": {
+        "name": "alpaca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 8,
+    "fields": {
+        "name": "anaconda"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 9,
+    "fields": {
+        "name": "anchova"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 10,
+    "fields": {
+        "name": "andorinha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 11,
+    "fields": {
+        "name": "anta"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 12,
+    "fields": {
+        "name": "antilope"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 13,
+    "fields": {
+        "name": "aranha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 14,
+    "fields": {
+        "name": "arara"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 15,
+    "fields": {
+        "name": "asno"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 16,
+    "fields": {
+        "name": "atum"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 17,
+    "fields": {
+        "name": "avestruz"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 18,
+    "fields": {
+        "name": "babuino"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 19,
+    "fields": {
+        "name": "bacalhau"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 20,
+    "fields": {
+        "name": "bacuri"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 21,
+    "fields": {
+        "name": "badejo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 22,
+    "fields": {
+        "name": "bagre"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 23,
+    "fields": {
+        "name": "baiacu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 24,
+    "fields": {
+        "name": "baleia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 25,
+    "fields": {
+        "name": "barata"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 26,
+    "fields": {
+        "name": "barbo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 27,
+    "fields": {
+        "name": "barracuda"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 28,
+    "fields": {
+        "name": "beijaflor"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 29,
+    "fields": {
+        "name": "besouro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 30,
+    "fields": {
+        "name": "bemtevi"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 31,
+    "fields": {
+        "name": "bezerro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 32,
+    "fields": {
+        "name": "bichodaseda"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 33,
+    "fields": {
+        "name": "bisonte"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 34,
+    "fields": {
+        "name": "boa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 35,
+    "fields": {
+        "name": "bode"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 36,
+    "fields": {
+        "name": "boi"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 37,
+    "fields": {
+        "name": "borboleta"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 38,
+    "fields": {
+        "name": "boto"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 39,
+    "fields": {
+        "name": "bufalo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 40,
+    "fields": {
+        "name": "burro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 41,
+    "fields": {
+        "name": "cabra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 42,
+    "fields": {
+        "name": "cachalote"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 43,
+    "fields": {
+        "name": "cachorro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 44,
+    "fields": {
+        "name": "cagado"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 45,
+    "fields": {
+        "name": "camaleao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 46,
+    "fields": {
+        "name": "camarao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 47,
+    "fields": {
+        "name": "camelo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 48,
+    "fields": {
+        "name": "camundongo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 49,
+    "fields": {
+        "name": "canario"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 50,
+    "fields": {
+        "name": "canguru"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 51,
+    "fields": {
+        "name": "capivara"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 52,
+    "fields": {
+        "name": "caracol"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 53,
+    "fields": {
+        "name": "caranguejo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 54,
+    "fields": {
+        "name": "carneiro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 55,
+    "fields": {
+        "name": "carrapato"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 56,
+    "fields": {
+        "name": "cascavel"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 57,
+    "fields": {
+        "name": "castor"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 58,
+    "fields": {
+        "name": "cavalo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 59,
+    "fields": {
+        "name": "cavalomarinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 60,
+    "fields": {
+        "name": "cegonha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 61,
+    "fields": {
+        "name": "centopeia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 62,
+    "fields": {
+        "name": "chimpanze"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 63,
+    "fields": {
+        "name": "chinchila"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 64,
+    "fields": {
+        "name": "chita"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 65,
+    "fields": {
+        "name": "cigarra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 66,
+    "fields": {
+        "name": "cisne"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 67,
+    "fields": {
+        "name": "coala"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 68,
+    "fields": {
+        "name": "cobra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 69,
+    "fields": {
+        "name": "codorna"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 70,
+    "fields": {
+        "name": "coelho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 71,
+    "fields": {
+        "name": "coiote"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 72,
+    "fields": {
+        "name": "coruja"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 73,
+    "fields": {
+        "name": "corvo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 74,
+    "fields": {
+        "name": "crocodilo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 75,
+    "fields": {
+        "name": "cupim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 76,
+    "fields": {
+        "name": "cutia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 77,
+    "fields": {
+        "name": "damao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 78,
+    "fields": {
+        "name": "dancador"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 79,
+    "fields": {
+        "name": "degolado"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 80,
+    "fields": {
+        "name": "degu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 81,
+    "fields": {
+        "name": "diablotim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 82,
+    "fields": {
+        "name": "diabodatasmania"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 83,
+    "fields": {
+        "name": "diamantedegould"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 84,
+    "fields": {
+        "name": "dingo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 85,
+    "fields": {
+        "name": "dinossauro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 86,
+    "fields": {
+        "name": "dodo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 87,
+    "fields": {
+        "name": "doninha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 88,
+    "fields": {
+        "name": "dourado"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 89,
+    "fields": {
+        "name": "dragaodekomodo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 90,
+    "fields": {
+        "name": "dragaodobanhado"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 91,
+    "fields": {
+        "name": "dragaovoador"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 92,
+    "fields": {
+        "name": "dromedario"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 93,
+    "fields": {
+        "name": "dugongo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 94,
+    "fields": {
+        "name": "elefante"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 95,
+    "fields": {
+        "name": "elefantemarinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 96,
+    "fields": {
+        "name": "ema"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 97,
+    "fields": {
+        "name": "enchova"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 98,
+    "fields": {
+        "name": "enferrujado"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 99,
+    "fields": {
+        "name": "enguia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 100,
+    "fields": {
+        "name": "enho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 101,
+    "fields": {
+        "name": "escaravelho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 102,
+    "fields": {
+        "name": "escorpiao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 103,
+    "fields": {
+        "name": "escrevedeira"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 104,
+    "fields": {
+        "name": "esmerilhao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 105,
+    "fields": {
+        "name": "espadarte"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 106,
+    "fields": {
+        "name": "esponja"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 107,
+    "fields": {
+        "name": "esquilo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 108,
+    "fields": {
+        "name": "estorninho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 109,
+    "fields": {
+        "name": "estreladomar"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 110,
+    "fields": {
+        "name": "esturjao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 111,
+    "fields": {
+        "name": "faisao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 112,
+    "fields": {
+        "name": "falcao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 113,
+    "fields": {
+        "name": "ferreirinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 114,
+    "fields": {
+        "name": "flamingo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 115,
+    "fields": {
+        "name": "flautim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 116,
+    "fields": {
+        "name": "foca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 117,
+    "fields": {
+        "name": "formiga"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 118,
+    "fields": {
+        "name": "fossa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 119,
+    "fields": {
+        "name": "fracadaguine"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 120,
+    "fields": {
+        "name": "frangodagua"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 121,
+    "fields": {
+        "name": "freirinha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 122,
+    "fields": {
+        "name": "fuinha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 123,
+    "fields": {
+        "name": "furao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 124,
+    "fields": {
+        "name": "gafanhoto"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 125,
+    "fields": {
+        "name": "gaivota"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 126,
+    "fields": {
+        "name": "galinha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 127,
+    "fields": {
+        "name": "galo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 128,
+    "fields": {
+        "name": "gamba"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 129,
+    "fields": {
+        "name": "gamo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 130,
+    "fields": {
+        "name": "ganso"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 131,
+    "fields": {
+        "name": "garca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 132,
+    "fields": {
+        "name": "garoupa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 133,
+    "fields": {
+        "name": "gato"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 134,
+    "fields": {
+        "name": "gaviao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 135,
+    "fields": {
+        "name": "gazela"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 136,
+    "fields": {
+        "name": "geco"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 137,
+    "fields": {
+        "name": "gerbo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 138,
+    "fields": {
+        "name": "gibao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 139,
+    "fields": {
+        "name": "girafa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 140,
+    "fields": {
+        "name": "girino"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 141,
+    "fields": {
+        "name": "gnu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 142,
+    "fields": {
+        "name": "golfinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 143,
+    "fields": {
+        "name": "gorila"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 144,
+    "fields": {
+        "name": "gralha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 145,
+    "fields": {
+        "name": "grifo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 146,
+    "fields": {
+        "name": "grilo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 147,
+    "fields": {
+        "name": "grou"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 148,
+    "fields": {
+        "name": "guara"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 149,
+    "fields": {
+        "name": "guaxinim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 150,
+    "fields": {
+        "name": "hadoque"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 151,
+    "fields": {
+        "name": "hamster"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 152,
+    "fields": {
+        "name": "harpia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 153,
+    "fields": {
+        "name": "hiena"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 154,
+    "fields": {
+        "name": "hipopotamo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 155,
+    "fields": {
+        "name": "hirax"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 156,
+    "fields": {
+        "name": "iaque"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 157,
+    "fields": {
+        "name": "ibex"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 158,
+    "fields": {
+        "name": "ibis"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 159,
+    "fields": {
+        "name": "iguana"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 160,
+    "fields": {
+        "name": "iguanara"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 161,
+    "fields": {
+        "name": "impala"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 162,
+    "fields": {
+        "name": "indicador"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 163,
+    "fields": {
+        "name": "indri"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 164,
+    "fields": {
+        "name": "inhacoso"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 165,
+    "fields": {
+        "name": "inhala"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 166,
+    "fields": {
+        "name": "inhambu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 167,
+    "fields": {
+        "name": "irapua"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 168,
+    "fields": {
+        "name": "irara"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 169,
+    "fields": {
+        "name": "iratim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 170,
+    "fields": {
+        "name": "itapema"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 171,
+    "fields": {
+        "name": "jabuti"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 172,
+    "fields": {
+        "name": "jacana"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 173,
+    "fields": {
+        "name": "jacare"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 174,
+    "fields": {
+        "name": "jacu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 175,
+    "fields": {
+        "name": "jacupara"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 176,
+    "fields": {
+        "name": "jaguar"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 177,
+    "fields": {
+        "name": "jamanta"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 178,
+    "fields": {
+        "name": "jararaca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 179,
+    "fields": {
+        "name": "javali"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 180,
+    "fields": {
+        "name": "jegue"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 181,
+    "fields": {
+        "name": "jiboia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 182,
+    "fields": {
+        "name": "joaninha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 183,
+    "fields": {
+        "name": "joaodebarro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 184,
+    "fields": {
+        "name": "jumento"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 185,
+    "fields": {
+        "name": "kakapo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 186,
+    "fields": {
+        "name": "kea"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 187,
+    "fields": {
+        "name": "kinguio"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 188,
+    "fields": {
+        "name": "kiwi"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 189,
+    "fields": {
+        "name": "koala"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 190,
+    "fields": {
+        "name": "kookaburra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 191,
+    "fields": {
+        "name": "kowari"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 192,
+    "fields": {
+        "name": "krill"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 193,
+    "fields": {
+        "name": "kudu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 194,
+    "fields": {
+        "name": "lacraia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 195,
+    "fields": {
+        "name": "lagarta"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 196,
+    "fields": {
+        "name": "lagartixa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 197,
+    "fields": {
+        "name": "lagarto"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 198,
+    "fields": {
+        "name": "lagosta"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 199,
+    "fields": {
+        "name": "lampreia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 200,
+    "fields": {
+        "name": "lavadeira"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 201,
+    "fields": {
+        "name": "lavagante"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 202,
+    "fields": {
+        "name": "leao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 203,
+    "fields": {
+        "name": "leaomarinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 204,
+    "fields": {
+        "name": "lebre"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 205,
+    "fields": {
+        "name": "lemure"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 206,
+    "fields": {
+        "name": "leopardo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 207,
+    "fields": {
+        "name": "lesma"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 208,
+    "fields": {
+        "name": "lhama"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 209,
+    "fields": {
+        "name": "libelula"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 210,
+    "fields": {
+        "name": "lince"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 211,
+    "fields": {
+        "name": "linguado"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 212,
+    "fields": {
+        "name": "lobo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 213,
+    "fields": {
+        "name": "lombriga"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 214,
+    "fields": {
+        "name": "lontra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 215,
+    "fields": {
+        "name": "lula"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 216,
+    "fields": {
+        "name": "macaco"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 217,
+    "fields": {
+        "name": "mamute"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 218,
+    "fields": {
+        "name": "manatim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 219,
+    "fields": {
+        "name": "mandril"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 220,
+    "fields": {
+        "name": "manganga"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 221,
+    "fields": {
+        "name": "maracana"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 222,
+    "fields": {
+        "name": "marimbondo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 223,
+    "fields": {
+        "name": "mariposa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 224,
+    "fields": {
+        "name": "marisco"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 225,
+    "fields": {
+        "name": "marmota"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 226,
+    "fields": {
+        "name": "marreco"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 227,
+    "fields": {
+        "name": "marta"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 228,
+    "fields": {
+        "name": "massarongo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 229,
+    "fields": {
+        "name": "medusa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 230,
+    "fields": {
+        "name": "melro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 231,
+    "fields": {
+        "name": "mergulhao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 232,
+    "fields": {
+        "name": "merluza"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 233,
+    "fields": {
+        "name": "mexilhao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 234,
+    "fields": {
+        "name": "mico"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 235,
+    "fields": {
+        "name": "milhafre"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 236,
+    "fields": {
+        "name": "mineirinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 237,
+    "fields": {
+        "name": "minhoca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 238,
+    "fields": {
+        "name": "mocho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 239,
+    "fields": {
+        "name": "mono"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 240,
+    "fields": {
+        "name": "morcego"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 241,
+    "fields": {
+        "name": "moreia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 242,
+    "fields": {
+        "name": "morsa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 243,
+    "fields": {
+        "name": "mosca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 244,
+    "fields": {
+        "name": "mosquito"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 245,
+    "fields": {
+        "name": "mucurana"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 246,
+    "fields": {
+        "name": "mula"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 247,
+    "fields": {
+        "name": "musaranho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 248,
+    "fields": {
+        "name": "naja"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 249,
+    "fields": {
+        "name": "nambu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 250,
+    "fields": {
+        "name": "nandaia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 251,
+    "fields": {
+        "name": "narceja"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 252,
+    "fields": {
+        "name": "narval"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 253,
+    "fields": {
+        "name": "nautilo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 254,
+    "fields": {
+        "name": "negrinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 255,
+    "fields": {
+        "name": "neon"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 256,
+    "fields": {
+        "name": "nhacunda"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 257,
+    "fields": {
+        "name": "nhandia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 258,
+    "fields": {
+        "name": "niala"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 259,
+    "fields": {
+        "name": "niquim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 260,
+    "fields": {
+        "name": "noitibo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 261,
+    "fields": {
+        "name": "numbat"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 262,
+    "fields": {
+        "name": "nutria"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 263,
+    "fields": {
+        "name": "olhodeboi"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 264,
+    "fields": {
+        "name": "onca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 265,
+    "fields": {
+        "name": "orangotango"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 266,
+    "fields": {
+        "name": "orca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 267,
+    "fields": {
+        "name": "orix"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 268,
+    "fields": {
+        "name": "ornitorrinco"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 269,
+    "fields": {
+        "name": "osga"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 270,
+    "fields": {
+        "name": "ostra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 271,
+    "fields": {
+        "name": "otaria"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 272,
+    "fields": {
+        "name": "ourico"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 273,
+    "fields": {
+        "name": "ouricodomar"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 274,
+    "fields": {
+        "name": "ovelha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 275,
+    "fields": {
+        "name": "panda"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 276,
+    "fields": {
+        "name": "pantera"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 277,
+    "fields": {
+        "name": "papagaio"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 278,
+    "fields": {
+        "name": "pardal"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 279,
+    "fields": {
+        "name": "passaro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 280,
+    "fields": {
+        "name": "pato"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 281,
+    "fields": {
+        "name": "pavao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 282,
+    "fields": {
+        "name": "peixe"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 283,
+    "fields": {
+        "name": "peixeboi"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 284,
+    "fields": {
+        "name": "pelicano"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 285,
+    "fields": {
+        "name": "percevejo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 286,
+    "fields": {
+        "name": "perereca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 287,
+    "fields": {
+        "name": "periquito"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 288,
+    "fields": {
+        "name": "pernilongo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 289,
+    "fields": {
+        "name": "peru"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 290,
+    "fields": {
+        "name": "pescada"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 291,
+    "fields": {
+        "name": "picapau"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 292,
+    "fields": {
+        "name": "pinguim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 293,
+    "fields": {
+        "name": "piolho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 294,
+    "fields": {
+        "name": "piranha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 295,
+    "fields": {
+        "name": "pirarucu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 296,
+    "fields": {
+        "name": "polvo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 297,
+    "fields": {
+        "name": "pombo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 298,
+    "fields": {
+        "name": "ponei"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 299,
+    "fields": {
+        "name": "porco"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 300,
+    "fields": {
+        "name": "porcoespinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 301,
+    "fields": {
+        "name": "porquinhodaindia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 302,
+    "fields": {
+        "name": "prea"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 303,
+    "fields": {
+        "name": "preguica"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 304,
+    "fields": {
+        "name": "pulga"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 305,
+    "fields": {
+        "name": "quati"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 306,
+    "fields": {
+        "name": "quatimirim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 307,
+    "fields": {
+        "name": "quatipuru"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 308,
+    "fields": {
+        "name": "quebranozes"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 309,
+    "fields": {
+        "name": "quebraossos"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 310,
+    "fields": {
+        "name": "queixada"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 311,
+    "fields": {
+        "name": "quemtevestiu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 312,
+    "fields": {
+        "name": "queroquero"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 313,
+    "fields": {
+        "name": "quetzal"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 314,
+    "fields": {
+        "name": "quiriquiri"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 315,
+    "fields": {
+        "name": "ra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 316,
+    "fields": {
+        "name": "rabudinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 317,
+    "fields": {
+        "name": "raia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 318,
+    "fields": {
+        "name": "raposa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 319,
+    "fields": {
+        "name": "ratazana"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 320,
+    "fields": {
+        "name": "rato"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 321,
+    "fields": {
+        "name": "remora"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 322,
+    "fields": {
+        "name": "rena"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 323,
+    "fields": {
+        "name": "rendeira"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 324,
+    "fields": {
+        "name": "rinoceronte"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 325,
+    "fields": {
+        "name": "robalo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 326,
+    "fields": {
+        "name": "rouxinol"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 327,
+    "fields": {
+        "name": "sabia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 328,
+    "fields": {
+        "name": "sagui"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 329,
+    "fields": {
+        "name": "salamandra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 330,
+    "fields": {
+        "name": "salmao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 331,
+    "fields": {
+        "name": "sanguessuga"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 332,
+    "fields": {
+        "name": "sapo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 333,
+    "fields": {
+        "name": "sardao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 334,
+    "fields": {
+        "name": "sardinha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 335,
+    "fields": {
+        "name": "sauva"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 336,
+    "fields": {
+        "name": "seriema"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 337,
+    "fields": {
+        "name": "serpente"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 338,
+    "fields": {
+        "name": "siri"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 339,
+    "fields": {
+        "name": "sucuarana"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 340,
+    "fields": {
+        "name": "sucuri"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 341,
+    "fields": {
+        "name": "suiriri"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 342,
+    "fields": {
+        "name": "suricate"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 343,
+    "fields": {
+        "name": "surubi"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 344,
+    "fields": {
+        "name": "surucucu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 345,
+    "fields": {
+        "name": "tainha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 346,
+    "fields": {
+        "name": "tamandua"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 347,
+    "fields": {
+        "name": "tamboril"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 348,
+    "fields": {
+        "name": "tapir"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 349,
+    "fields": {
+        "name": "tarantula"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 350,
+    "fields": {
+        "name": "tartaruga"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 351,
+    "fields": {
+        "name": "tatu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 352,
+    "fields": {
+        "name": "tatui"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 353,
+    "fields": {
+        "name": "tentilhao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 354,
+    "fields": {
+        "name": "tetra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 355,
+    "fields": {
+        "name": "texugo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 356,
+    "fields": {
+        "name": "ticotico"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 357,
+    "fields": {
+        "name": "tigre"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 358,
+    "fields": {
+        "name": "tilapia"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 359,
+    "fields": {
+        "name": "tordo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 360,
+    "fields": {
+        "name": "tororo"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 361,
+    "fields": {
+        "name": "toupeira"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 362,
+    "fields": {
+        "name": "touro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 363,
+    "fields": {
+        "name": "tritao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 364,
+    "fields": {
+        "name": "truta"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 365,
+    "fields": {
+        "name": "tubarao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 366,
+    "fields": {
+        "name": "tucano"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 367,
+    "fields": {
+        "name": "tucuxi"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 368,
+    "fields": {
+        "name": "uacari"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 369,
+    "fields": {
+        "name": "unau"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 370,
+    "fields": {
+        "name": "unhalonga"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 371,
+    "fields": {
+        "name": "unicornio"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 372,
+    "fields": {
+        "name": "urso panda"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 373,
+    "fields": {
+        "name": "urso"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 374,
+    "fields": {
+        "name": "uru"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 375,
+    "fields": {
+        "name": "urubu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 376,
+    "fields": {
+        "name": "urutaurana"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 377,
+    "fields": {
+        "name": "urutu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 378,
+    "fields": {
+        "name": "vaca"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 379,
+    "fields": {
+        "name": "vacamarinha"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 380,
+    "fields": {
+        "name": "vagalume"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 381,
+    "fields": {
+        "name": "veado"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 382,
+    "fields": {
+        "name": "verdilhao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 383,
+    "fields": {
+        "name": "verdinho"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 384,
+    "fields": {
+        "name": "vespa"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 385,
+    "fields": {
+        "name": "vibora"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 386,
+    "fields": {
+        "name": "vieira"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 387,
+    "fields": {
+        "name": "virabosta"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 388,
+    "fields": {
+        "name": "vison"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 389,
+    "fields": {
+        "name": "vitela"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 390,
+    "fields": {
+        "name": "viuva"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 391,
+    "fields": {
+        "name": "viuvanegra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 392,
+    "fields": {
+        "name": "wallaby"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 393,
+    "fields": {
+        "name": "weimaraner"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 394,
+    "fields": {
+        "name": "wombat"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 395,
+    "fields": {
+        "name": "xaja"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 396,
+    "fields": {
+        "name": "xango"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 397,
+    "fields": {
+        "name": "xara"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 398,
+    "fields": {
+        "name": "xarelete"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 399,
+    "fields": {
+        "name": "xareu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 400,
+    "fields": {
+        "name": "xaru"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 401,
+    "fields": {
+        "name": "xauim"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 402,
+    "fields": {
+        "name": "xero"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 403,
+    "fields": {
+        "name": "xexeu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 404,
+    "fields": {
+        "name": "ximango"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 405,
+    "fields": {
+        "name": "ximbure"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 406,
+    "fields": {
+        "name": "xixarro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 407,
+    "fields": {
+        "name": "xofrango"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 408,
+    "fields": {
+        "name": "xuri"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 409,
+    "fields": {
+        "name": "yak"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 410,
+    "fields": {
+        "name": "ynambu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 411,
+    "fields": {
+        "name": "yorkshire"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 412,
+    "fields": {
+        "name": "zabele"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 413,
+    "fields": {
+        "name": "zangao"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 414,
+    "fields": {
+        "name": "zaragateiro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 415,
+    "fields": {
+        "name": "zarro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 416,
+    "fields": {
+        "name": "zebra"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 417,
+    "fields": {
+        "name": "zebu"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 418,
+    "fields": {
+        "name": "zidede"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 419,
+    "fields": {
+        "name": "zombeteiro"
+    }
+},
+{
+    "model": "party_mode.animal",
+    "pk": 420,
+    "fields": {
+        "name": "zorrilho\n"
+    }
+}
+]

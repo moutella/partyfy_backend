@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="mt-5 row justify-content-center text-center">
+    <div class="col-md-6 col-12 card login-card">
+        <div class="card-body">
+            <h5 class="card-title">Enter a session</h5>
+
+                <form id="enter_session" class="form-horizontal" name="EnterSessionForm">
+                    <div class="form-group">
+                        <div>
+                            <input id="session_id" type="text" name="session_id" value="" required="required"
+                                autofocus="autofocus" placeholder="session_id"
+                                class="form-control">
+                        </div>
+                    </div>
+                    <button type="submit" id="enter_session_button" class="btn btn-primary">Enter session</button>
+                </form>
+            <a href="/login" class="card-link">Start a session</a>
+        </div>
+    </div>
+</div>
+{% endblock %}
+{% block extra_js %}
+<script src="{% static 'js/index.js' %}"></script>
+{% endblock %}
