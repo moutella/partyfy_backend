@@ -9,6 +9,7 @@ Tired of having your friends ask for you to unlock your phone while having a par
 - create a database thats going to be used in the project
 - create your .env file and fill it
     - `cp .env.example .env`
+    - you will need to create a spotify developer account and configure it as well
 - run migrations
+- add initial_data
 - create a super user that is going to be allowed to start a new session
-
